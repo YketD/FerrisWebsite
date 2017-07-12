@@ -22,3 +22,4 @@ if (isIOS) {
     document.querySelectorAll('.canvas')[0].style.display = 'none';
 
 }   
+
