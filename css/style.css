@@ -1,0 +1,43 @@
+.video-bg {
+  position: absolute; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  display:block;
+  }
+.video-bg video {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  z-index:0;
+}
+.imagesBLOCK{
+	display: none;
+}
+.images{
+	position:relative;
+	display:none;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	width: 200%; 
+  	height: 200%;
+	background-color: rgba(0, 0, 0, 0.9);
+	background-size: cover;
+	
+	z-index: 10;
+    
+}
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+}
